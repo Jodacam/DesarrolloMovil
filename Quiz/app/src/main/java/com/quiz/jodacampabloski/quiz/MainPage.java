@@ -20,5 +20,6 @@ public class MainPage extends AppCompatActivity {
     public void StartGame(View v){
         Intent nextActivty = new Intent(this,Game.class);
         startActivity(nextActivty);
+
     }
 }
